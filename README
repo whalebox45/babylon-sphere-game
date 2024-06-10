@@ -1,0 +1,48 @@
+# Babylon.js Game
+
+This is a simple game created using Babylon.js, a powerful 3D rendering engine for the web. In this game, you control a sphere and navigate it through obstacles in the environment.
+
+## How to Play
+
+- Use the **W, A, S, D** keys to move the sphere forward, left, backward, and right respectively.
+- Press **C** to jump.
+- Use **I, J, K, L** keys to rotate the environment. 
+- Press **P** to reset the rotation.
+- Press **R** to reset the position of the sphere.
+
+## Installation
+
+To run this game locally, follow these steps:
+
+1. Clone this repository.
+2. Make sure you have Node.js installed on your machine.
+3. Navigate to the project directory in your terminal.
+4. Run `npm install` to install dependencies.
+5. Start the local server by running `npm start`.
+6. Open your browser and go to `http://localhost:port_number`, where `port_number` is the port specified in your server configuration.
+
+## Controls
+
+- **W, A, S, D**: Move the sphere
+- **C**: Jump
+- **I, J, K, L**: Rotate the environment
+- **P**: Reset rotation
+- **R**: Reset sphere position
+
+## Technologies Used
+
+- Babylon.js
+- Havok Physics
+- JavaScript
+
+## Credits
+
+This game was created by me.
+
+## License
+
+This project is licensed under the APACHE 2.0
+
+
+Skybox https://opengameart.org/content/sky-box-sunny-day
+
