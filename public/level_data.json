@@ -1,0 +1,292 @@
+{
+    "ball": {
+        "diameter": 1,
+        "mass": 1,
+        "initX": 4.4,
+        "initY": 2,
+        "initZ": 4.4,
+        "colorR": 0.7,
+        "colorG": 0.7,
+        "colorB": 0.7
+    },
+    "bottom": {
+        "width": 10,
+        "height": 0.8,
+        "depth": 10
+    },
+    "walls": [
+        {
+            "name": "side0",
+            "x": -5.5,
+            "y": 0.5,
+            "z": 0,
+            "rotY": 90,
+            "w": 10,
+            "h": 1,
+            "d": 1,
+            "colorR": 1,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "side1",
+            "x": 0,
+            "y": 0.5,
+            "z": 5.5,
+            "rotY": 0,
+            "w": 10,
+            "h": 1,
+            "d": 1,
+            "colorR": 0,
+            "colorG": 1,
+            "colorB": 0
+        },
+        {
+            "name": "side2",
+            "x": 5.5,
+            "y": 0.5,
+            "z": 0,
+            "w": 10,
+            "h": 1,
+            "d": 1,
+            "rotY": 90,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 1
+        },
+        {
+            "name": "side3",
+            "x": 0,
+            "y": 0.5,
+            "z": -5.5,
+            "w": 10,
+            "h": 0.75,
+            "d": 1,
+            "rotY": 0,
+            "colorR": 0.9,
+            "colorG": 0.9,
+            "colorB": 0
+        },
+        {
+            "name": "wall0",
+            "x": 1.5,
+            "y": 0,
+            "z": 3.5,
+            "w": 7,
+            "h": 0.25,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall1",
+            "x": -3,
+            "y": 0.75,
+            "z": 1,
+            "w": 7,
+            "h": 0.75,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": 90,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall2",
+            "x": -2.5,
+            "y": 0.1,
+            "z": 1,
+            "w": 3,
+            "h": 0.25,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall3",
+            "x": 0,
+            "y": 0.1,
+            "z": 2.5,
+            "w": 0.25,
+            "h": 0.25,
+            "d": 2,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall4",
+            "x": -0.5,
+            "y": 0.1,
+            "z": 0,
+            "w": 0.25,
+            "h": 0.25,
+            "d": 2,
+            "rotX": 0,
+            "rotY": -45,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall5",
+            "x": 1.75,
+            "y": 0,
+            "z": -1,
+            "w": 0.25,
+            "h": 0.25,
+            "d": 4,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 45,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall6",
+            "x": 2.5,
+            "y": 0.1,
+            "z": 1,
+            "w": 2,
+            "h": 0.25,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall7",
+            "x": 2.5,
+            "y": 0.1,
+            "z": -3,
+            "w": 2,
+            "h": 0.25,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall8",
+            "x": 0,
+            "y": 0.1,
+            "z": -3.5,
+            "w": 3,
+            "h": 0.25,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": 90,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        },
+        {
+            "name": "wall9",
+            "x": -3.5,
+            "y": 0.1,
+            "z": -3,
+            "w": 1.25,
+            "h": 0.25,
+            "d": 0.25,
+            "rotX": 0,
+            "rotY": -45,
+            "rotZ": 0,
+            "colorR": 0,
+            "colorG": 0,
+            "colorB": 0
+        }
+    ],
+    "holes": [
+        {
+            "name": "hole0",
+            "x": 3,
+            "z": 2
+        },
+        {
+            "name": "hole1",
+            "x": 1.8,
+            "z": 2
+        },
+        {
+            "name": "hole2",
+            "x": -2,
+            "z": 1.75
+        },
+        {
+            "name": "hole2",
+            "x": 1,
+            "z": -0.255
+        },
+        {
+            "name": "hole2",
+            "x": 4.25,
+            "z": -0.75
+        },
+        {
+            "name": "hole2",
+            "x": 2.5,
+            "z": -2
+        },
+        {
+            "name": "hole2",
+            "x": 2.5,
+            "z": 0.255
+        },
+        {
+            "name": "hole2",
+            "x": 4.25,
+            "z": -4.25
+        },
+        {
+            "name": "hole2",
+            "x": -0.75,
+            "z": -2.5
+        },
+        {
+            "name": "hole2",
+            "x": -1.5,
+            "z": -1.5
+        },
+        {
+            "name": "hole2",
+            "x": -1,
+            "z": -4.25
+        },
+        {
+            "name": "hole2",
+            "x": -2.25,
+            "z": -4.25
+        },
+        {
+            "name": "hole2",
+            "x": -4.25,
+            "z": 3
+        },
+        {
+            "name": "hole2",
+            "x": -4.25,
+            "z": -1
+        }
+    ]
+}
